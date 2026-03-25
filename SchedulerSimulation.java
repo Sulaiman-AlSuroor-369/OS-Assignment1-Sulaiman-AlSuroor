@@ -377,7 +377,7 @@ private static int contextSwitchCounter = 0;
         process.setLastQueue(System.currentTimeMillis());
         // Print a message indicating the process has entered the ready queue
         System.out.println(Colors.BLUE + "  ➕ " + Colors.BOLD + Colors.CYAN + process.getName() + 
-                          Colors.RESET + Colors.BLUE + " ( the priority: "+process.getPriority()+")"+
+                          Colors.RESET + Colors.BLUE + " (the priority: "+process.getPriority()+")"+
                           "added to ready queue "+ Colors.RESET + 
                           " │ Burst time: " + Colors.YELLOW + process.getBurstTime() + "ms" + 
                           Colors.RESET);
